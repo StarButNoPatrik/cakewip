@@ -1,0 +1,19 @@
+.cake{
+    background-color: #f8c471; /* Light brown */
+    border-radius: 10px;
+    width: 5px;
+    height: 35px;
+    position: absolute;
+    transform: translateY(-300%);
+    backface-visibility: hidden;
+    animation: in 500ms ease-out forwards;
+}
+.cake:after,
+.cake::before{
+    background: rgba(255, 0, 0, 0.4);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2.222222px;
+    
+}
